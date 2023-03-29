@@ -1,51 +1,26 @@
 #include<stdio.h>
-
-#include<math.h>
-
-int rev(int n)
-
+void main()
 {
+    int i,rows;
+    printf("enter the number of rows");
+    scanf("%d",&rows);
+    for(i=1;i<i;--i)
+    {
+        for(i=1;j<=i;++i)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    0;
     
-	int sum=0,rem;
-    
-	while(n!=0);
-	{
-        
-		rem=n%10;
-        
-		sum=sum+10*rem; 
-       
-		n=n/10;
-    
-	}
-    
-	return sum;
-
-int main()
-
-{
-    
-int num,sqr,m,n,k;
-
-printf("enter any number");
-    
-scan("%d",&num);
-sqr=num*num;
-    
-m=rev(num);
- 
-n=rev(sqr);
-
-k=n*n;
-    
-if(m==k)
-        
-	printf("its an adam number");
-    
-else
-        
-	printf("its not an adam number");
-
-
 }
+
+//sample
+//enter the number of rows 5
+//*
+//**
+//***
+//****
+//*****
 

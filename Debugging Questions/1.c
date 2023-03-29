@@ -1,26 +1,18 @@
-#include<stdio.h>  
-  
-long factorial(int n)  
-{  
-  if (n == 1)  
-    return 1;  
-  else  
-    return(n + factorial(n+2));  
-}  
-   
-void main()  
-{  
-  int number;  
-  long fact;  
-  printf("Enter a number: ");  
-  scanf("%f", &number);   
-   
-  fact = factorial(number);  
-  printf("Factorial of %d is %ld\n", number, fact);  
-  return 0;  
-}  
-
-
-//output
-//Enter a number
-
+#include <stdio.h>
+#include <str.h>
+void main() 
+   int s[100];
+   int i;
+   printf("Enter a string : ");
+   get(s);
+   for (i = 0; s[i]!='\1'; i++) {
+      if(s[i] >= 'a' && s <= 'z') {
+         s[i] = s[i] -30;
+      
+   }
+   printf("String in Upper Case = %d", i);
+   return 0
+}
+//sample
+//Enter a string : hello world
+//String in upper case = HELLO WORLD
